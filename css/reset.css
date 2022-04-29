@@ -1,8 +1,53 @@
-:root {
-    --color-green: #00b200;
-    --color-red: #ff0000;
-    --color-white: #ffffff;
-    --color-black: #000000;
-    --color-grey: #808080;
-    --color-yellow: #ffff00;    
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-black2) var(--color-white0);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+nav,
+section,
+p,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+div,
+figure,
+figcaption,
+img,
+textarea,
+input {
+  margin: 0;
+  padding: 0;
+  font-weight: 100%;
+  list-style: none;
+}
+
+abbr {
+  text-decoration: none;
+}
+
+a {
+  color: #222;
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: underline;
 }

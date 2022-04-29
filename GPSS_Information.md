@@ -4,15 +4,6 @@
 
 "Votre sécurité, c'est notre engagement."
 
-## Nos ATOUTS
-
-Toutes nos prestations sont exécutées par une équipe qualifiée, professionnelle et personnalisée selon les exigences du client. vous apporter une sécurité optimale et l’assurance d’une prestation performante, compétitive et de qualité est notre priorité :
-
-- Professionnalisme
-- Sérieux
-- Rigueur
-- Réactivité à la demande
-
 ## Nos services
 
 - Gardiennage
@@ -24,15 +15,6 @@ Toutes nos prestations sont exécutées par une équipe qualifiée, professionne
 - Sécurité évènementielle
 - SSIAP 1.2.3
 
-## À PROPOS DE NOUS
-
-La société GPSS s'appuie sur les compétences d'une équipe expérimentée, formée et rigoureuse dans ses choix de services.
-
-Les années d'expérience des cadres techniques de la société, ont contribué a une parfaite connaissance des rouages de la sécurité et de l'environnement de nos clients, qu' il s agisse de professionnels, de collectivité locales ou des services de l'état.
-
-nous ne concevons pas de métier sans le conseil et l'écoute
-
-nécessaire pour répondre a vos attentes.
 
 ## NOS SERVICES SÉCURITÉ PROTECTION
 
@@ -54,6 +36,27 @@ Mail:
 
 Facebook:
 Gpss sécurité
+
+
+## Nos ATOUTS
+
+Toutes nos prestations sont exécutées par une équipe qualifiée, professionnelle et personnalisée selon les exigences du client. vous apporter une sécurité optimale et l’assurance d’une prestation performante, compétitive et de qualité est notre priorité :
+
+- Professionnalisme
+- Sérieux
+- Rigueur
+- Réactivité à la demande
+
+## À PROPOS DE NOUS
+
+La société GPSS s'appuie sur les compétences d'une équipe expérimentée, formée et rigoureuse dans ses choix de services.
+
+Les années d'expérience des cadres techniques de la société, ont contribué a une parfaite connaissance des rouages de la sécurité et de l'environnement de nos clients, qu' il s agisse de professionnels, de collectivité locales ou des services de l'état.
+
+nous ne concevons pas de métier sans le conseil et l'écoute
+
+nécessaire pour répondre a vos attentes.
+
 
 ---
 

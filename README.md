@@ -16,3 +16,8 @@ Site pour GPSS - Guyane
 - [ ] Define the color palette (it should fit the logo)
 - [ ] Improve your design implementing the font, colors, and logo
 - [ ] Define animations to implement (you can design them if they are complexe using a software otherwise just keep them in mind, or draw them on paper)
+
+https://www.guardservicenow.com/
+https://securityguardtx.com/
+https://www.security-guard.com/
+https://xpressguards.com/
