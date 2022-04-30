@@ -21,3 +21,7 @@ https://www.guardservicenow.com/
 https://securityguardtx.com/
 https://www.security-guard.com/
 https://xpressguards.com/
+
+
+Mentions Légales
+Politique de confidentialité

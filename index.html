@@ -58,8 +58,10 @@
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <div class="call-btn-container"><a class="call-btn" href="tel:+594694025181"><i
-          class="fa-solid fa-phone"></i>Cliquez ici pour appeller</a>
+    <div class="call-btn-container">
+      <a class="call-btn" href="https://wa.me/+594694135149" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+      <a class="call-btn" href="tel:+594694025181" target="_blank"><i class="fa-solid fa-phone"></i></a>
+      <a class="call-btn" href="#contact"><i class="fa-solid fa-envelope"></i></a>
     </div>
 
   </header>
@@ -93,19 +95,23 @@
       </ul>
     </section> -->
     <section id="contact">
-      <h2>Contactez nous</h2>
+      <h2>Demande de devis</h2>
       <form action="#">
         <div>
           <label for="name">Nom</label>
-          <input type="text" name="name" id="name" />
+          <input type="text" name="name" id="name" required />
         </div>
         <div>
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" />
+          <input type="email" name="email" id="email" required />
+        </div>
+        <div>
+          <label for="phone">Téléphone</label>
+          <input type="text" name="phone" id="phone" required />
         </div>
         <div>
           <label for="message">Message</label>
-          <textarea name="message" id="message"></textarea>
+          <textarea name="message" id="message" placeholder="Précisez votre demande"></textarea>
         </div>
         <div>
           <input type="submit" value="Envoyer" />
@@ -139,6 +145,11 @@
       <a href="mailto:contact.gpss@gmail.com"><i class="fa-solid fa-envelope"></i> contact.gpss@gmail.com</a>
       <h3>Social</h3>
       <a href="https://www.facebook.com/gpss973"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="https://wa.me/+594694135149" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    </section>
+    <section>
+      <h2>Rejoignez nous</h2>
+      <a href="#">Ici</a>
     </section>
     <p class="copyright">Copyright - NMYANG - 2022 - <a href="#">mention légal</a> </p>
   </footer>
