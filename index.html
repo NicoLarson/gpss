@@ -1,39 +1,32 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" dir="ltr">
 
 <head>
   <meta charset="UTF-8" />
   <meta content="IE=edge" http-equiv="X-UA-Compatible" />
   <meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport" />
   <meta
-    content="La société GPSS s'appuie sur les compétences d'une équipe expérimentée, formée et rigoureuse dans ses choix de services."
+    content="La société GPSS Guyane Protection Sureté et Sécurité offre des services de gardiennage, surveillance, sécurité, rondes et intervention. | SSIAP 1.2.3"
     name="description" />
-  <link href="./assets/logos/apple-icon-57x57.png" rel="apple-touch-icon" sizes="57x57" />
-  <link href="./assets/logos/apple-icon-60x60.png" rel="apple-touch-icon" sizes="60x60" />
-  <link href="./assets/logos/apple-icon-72x72.png" rel="apple-touch-icon" sizes="72x72" />
-  <link href="./assets/logos/apple-icon-76x76.png" rel="apple-touch-icon" sizes="76x76" />
-  <link href="./assets/logos/apple-icon-114x114.png" rel="apple-touch-icon" sizes="114x114" />
-  <link href="./assets/logos/apple-icon-120x120.png" rel="apple-touch-icon" sizes="120x120" />
-  <link href="./assets/logos/apple-icon-144x144.png" rel="apple-touch-icon" sizes="144x144" />
-  <link href="./assets/logos/apple-icon-152x152.png" rel="apple-touch-icon" sizes="152x152" />
-  <link href="./assets/logos/apple-icon-180x180.png" rel="apple-touch-icon" sizes="180x180" />
-  <link href="./assets/logos//android-icon-192x192.png" rel="icon" sizes="192x192" type="image/png" />
   <link href="./assets/img/logo-colors.PNG" rel="icon" sizes="32x32" type="image/png" />
   <link href="./assets/img/logo-colors.PNG" rel="icon" sizes="96x96" type="image/png" />
   <link href="./assets/img/logo-colors.PNG" rel="icon" sizes="16x16" type="image/png" />
   <link href="./assets/logos/manifest.json" rel="manifest" />
   <meta content="#ffffff" name="msapplication-TileColor" />
-  <meta content="./assets/logos//ms-icon-144x144.png" name="msapplication-TileImage" />
   <meta content="#ffffff" name="theme-color" />
+  <link rel="apple-touch-icon" href="./assets/img/logo-colors.PNG">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="msapplication-config" content="browserconfig.xml" />
   <title>GPSS</title>
+  <link href="./assets/img/logo-colors.png" rel="icon" type="image/png" />
+  <link href="./css/reset.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="./assets/img/logo-colors.png" rel="icon" type="image/png" />
-  <link href="./css/reset.css" rel="stylesheet" />
-  <link href="./css/style.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -41,28 +34,41 @@
 
 <body>
   <header>
-    <div class="header-logo-title">
-      <img class="header-logo" alt="Logo GPSS" src="./assets/img/logo-colors.PNG" />
-      <h1>
-        <span>G</span>uyane
-        <span>P</span>rotection
-        <span>S</span>ûreté et <span>S</span>écurité
-      </h1>
+    <video id="background-video" autoplay loop muted poster="./assets/img/flex-point-security-ut4dQ0KqsQE-unsplash.jpg">
+      <source src="https://static.videezy.com/system/resources/previews/000/018/955/original/black-plate.mp4"
+        type="video/mp4">
+    </video>
+    <div>
+      <div class="header-logo-title">
+        <img class="header-logo" alt="Logo GPSS" src="./assets/img/logo-colors.PNG" />
+        <h1>
+          <span>G</span>uyane
+          <span>P</span>rotection
+          <span>S</span>ûreté et <span>S</span>écurité
+        </h1>
+      </div>
+      <p class="slogan">Votre sécurité, c'est notre engagement!</p>
+      <p class="anytime">7j/7 24h/24</p>
+      <nav>
+        <ul>
+          <li><a href="#services">Nos services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="call-btn-container">
+        <a class="call-btn" href="https://wa.me/+594694135149" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a class="call-btn" href="tel:+594694025181" target="_blank"><i class="fa-solid fa-phone"></i></a>
+        <a class="call-btn" href="#contact"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <a class="go-down" href="#services"><span>En savoir plus</span>
+        <!-- <i class="fa-light fa-arrow-down-long"></i> -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-arrow-down">
+          <line x1="12" y1="4" x2="12" y2="20"></line>
+          <polyline points="18 14 12 20 6 14"></polyline>
+        </svg></a>
     </div>
-    <p>Votre sécurité, c'est notre engagement!</p>
-    <p class="anytime">7j/7 24h/24</p>
-    <nav>
-      <ul>
-        <li><a href="#services">Nos services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="call-btn-container">
-      <a class="call-btn" href="https://wa.me/+594694135149" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-      <a class="call-btn" href="tel:+594694025181" target="_blank"><i class="fa-solid fa-phone"></i></a>
-      <a class="call-btn" href="#contact"><i class="fa-solid fa-envelope"></i></a>
-    </div>
-
   </header>
   <main>
     <section id="services">
@@ -97,40 +103,40 @@
         compétitive et de qualité est notre priorité :
       </p>
       <ul>
-        <li> - Professionnalisme</li>
-        <li> - Sérieux</li>
-        <li> - Rigueur</li>
-        <li> - Réactivité à la demande</li>
+        <li> <i class="fa-solid fa-thumbs-up"></i> Professionnalisme</li>
+        <li> <i class="fa-solid fa-thumbs-up"></i> Sérieux</li>
+        <li> <i class="fa-solid fa-thumbs-up"></i> Rigueur</li>
+        <li> <i class="fa-solid fa-thumbs-up"></i> Réactivité à la demande</li>
       </ul>
     </section>
-    <section id="contact">
-      <h2>Demande de devis</h2>
-      <form action="#">
+    <form id="contact" action="#">
+      <fieldset>
+        <legend>Demande de devis</legend>
         <div>
           <label for="name">Nom</label>
-          <input type="text" name="name" id="name" required />
+          <input type="text" name="name" id="name" placeholder="Jean-Michel Désir" required />
         </div>
         <div>
           <label for="email">Email</label>
-          <input type="email" name="email" id="email" required />
+          <input type="email" name="email" id="email" placeholder="jm-desir@gmail.com" required />
         </div>
         <div>
           <label for="phone">Téléphone</label>
-          <input type="text" name="phone" id="phone" required />
+          <input type="tel" name="phone" id="phone" placeholder="0694 01 02 03" required />
         </div>
         <div>
           <label for="message">Message</label>
-          <textarea name="message" id="message" placeholder="Précisez votre demande"></textarea>
+          <textarea name="message" id="message" placeholder="Bonjour, votre service de gardiennage m'intéresse."
+            required></textarea>
         </div>
         <div>
           <input type="submit" value="Envoyer" />
         </div>
-      </form>
-    </section>
-
+      </fieldset>
+    </form>
   </main>
   <footer>
-    <img class="footer-logo" alt="Logo GPSS" src="./assets/img/logo-bw.PNG" />
+    <a href="#"><img class="footer-logo" alt="Logo GPSS" src="./assets/img/logo-bw.PNG" /></a>
     <section id="coordonne">
       <h2>Coordonnées</h2>
       <h3>Téléphone</h3>
@@ -148,9 +154,10 @@
         <li><a href="#">Rejoignez nous</a></li>
         <li><a href="#">Mentions légales</a></li>
         <li><a href="#">Politique de confidentialité</a></li>
+        <li><a href="#">www.gpss.com</a></li>
       </ul>
     </section>
-    <p class="copyright">Copyright - NMYANG - 2022 </p>
+    <p class="copyright">2022. All rights reserved. Ce site web est fait par NMYANG</p>
   </footer>
   <script src="./js/app.js"></script>
 </body>
