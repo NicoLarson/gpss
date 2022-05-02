@@ -13,6 +13,10 @@
 /*------------------------------------*\
     BASE
 \*------------------------------------*/
+.desktop-only {
+  display: none;
+}
+
 h1 {
   font-size: 4rem;
 }
@@ -314,7 +318,7 @@ header nav {
   box-sizing: border-box;
   color: #0d172a;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 600;
   line-height: 1;
   padding: 1rem 1.6rem;
@@ -403,6 +407,11 @@ footer a {
 
 footer i {
   color: var(--color-white);
+}
+
+footer a.fb-btn p {
+  display: inline;
+  font-size: 0;
 }
 
 footer p.copyright,

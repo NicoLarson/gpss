@@ -25,6 +25,7 @@
   <link href="./assets/img/logo-colors.png" rel="icon" type="image/png" />
   <link href="./css/reset.css" rel="stylesheet" />
   <link href="./css/style.css" rel="stylesheet" />
+  <link href="./css/desktop.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -53,13 +54,16 @@
       </div>
       <p class="slogan">Votre sécurité, c'est notre engagement!</p>
       <p class="anytime">7j/7 24h/24</p>
-      <nav>
+      <nav class="desktop-only">
         <ul>
           <li><a href="#services">Nos services</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#staff">Nos profils</a></li>
+          <li><a href="#about">A propos</a></li>
+          <li><a class="phone" href="#contact">0694 02 51 81</a></li>
+          <li><a class="btn-get" href="#contact">Devis gratuit</a></li>
         </ul>
       </nav>
-      <div class="call-btn-container">
+      <div class="call-btn-container mobile-only">
         <a rel="noopener noreferrer" class="call-btn" href="https://wa.me/+594694135149" target="_blank"> <i
             class="fa-brands fa-whatsapp"></i>
           <p>Whatsapp</p>
@@ -95,9 +99,9 @@
         <li><i class="fa-solid fa-check"></i> Agents SSIAP 1.2.3</li>
         <li><i class="fa-solid fa-check"></i> Agents Maître-chien</li>
       </ul>
-
+      <img class="desktop-only" src="./assets/img/ill-profils.png" alt="">
     </section>
-    <section>
+    <section id="staff">
       <h2>Nos profils</h2>
       <p> <strong>Tous nos agents possèdent le SST et HOBO</strong> </p>
       <h3>Des critères de recrutement rigoureux</h3>
@@ -170,7 +174,7 @@
       <h3>Email</h3>
       <a href="mailto:contact.gpss@gmail.com">contact.gpss@gmail.com</a>
       <h3>Social</h3>
-      <a rel="noopener noreferrer" href="https://www.facebook.com/gpss973" target="_blank"><i
+      <a class="fb-btn" rel="noopener noreferrer" href="https://www.facebook.com/gpss973" target="_blank"><i
           class="fa-brands fa-facebook"></i>
         <p>Facebook</p>
       </a>
