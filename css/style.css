@@ -20,10 +20,15 @@ h1 {
 h2 {
   font-size: 3.6rem;
   padding: 1rem 0;
+  line-height: 3rem;
+
 }
 
 h3 {
   font-size: 2.4rem;
+  line-height: 2.8rem;
+  padding: 1rem 0;
+
 }
 
 p,
@@ -32,10 +37,11 @@ label,
 a,
 input {
   font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 section {
-  padding: 2rem 2rem 2rem;
+  padding: 4rem 2rem;
   background-color: #fff;
 }
 
@@ -105,7 +111,7 @@ header {
   align-items: center;
   /* background-color: #222; */
   color: var(--color-white);
-  height: calc(100vh - 4rem);
+  height: calc(100vh - 8rem);
 }
 
 header>div {
@@ -131,7 +137,7 @@ header .header-logo-title {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 2rem 1rem;
   /* position: absolute;
   top: 0; */
 }
@@ -153,9 +159,10 @@ header h1 span {
 
 
 header p.slogan {
-  font-size: 3.2rem;
+  font-size: 2.8rem;
   text-transform: uppercase;
   text-align: center;
+  line-height: 3.2rem;
   /* font-weight: bolder; */
 
 }
@@ -164,6 +171,7 @@ header p.anytime {
   color: var(--color-yellow);
   font-weight: bolder;
   font-size: 4rem;
+  padding: 2rem 0;
 }
 
 header a.go-down {
@@ -269,7 +277,7 @@ header nav {
 
 #contact input,
 #contact textarea {
-  padding: 0 1rem;
+  padding: .4rem 1rem;
   margin-bottom: 1rem;
   width: 100%;
   background-color: var(--color-black);
@@ -371,12 +379,14 @@ footer section {
 
 footer h2 {
   font-size: 2.4rem;
-  color: var(--color-yellow)
+  color: var(--color-yellow);
 }
 
 footer h3 {
   font-size: 2rem;
-  color: var(--color-yellow)
+  color: var(--color-yellow);
+  line-height: 3rem;
+  padding: 1rem 0 0;
 }
 
 footer p {

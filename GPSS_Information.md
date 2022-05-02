@@ -67,7 +67,7 @@ Nous attachons une grande importance a la formation de nos collaborateurs.
 ### DES CRITÈRES DE RECRUTEMENT RIGOUREUX
 
 - Exigence d’une saine moralité
-- Vérification du casier ju
+- Vérification du casier judiciaire
 - Evaluation de l’équilibre psychologique
 - Maîtrise de soi et désamorçage de conflits
 - Bonne présentation et facilité d’adaptation
