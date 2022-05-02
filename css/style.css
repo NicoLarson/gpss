@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  font-size: 3.6rem;
+  font-size: 3.2rem;
   padding: 1rem 0;
   line-height: 3rem;
 
@@ -136,15 +136,15 @@ header .header-logo-title {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 2rem 1rem;
   /* position: absolute;
   top: 0; */
 }
 
 header img.header-logo {
-  width: 12rem;
-  height: 14rem;
+  width: 8rem;
+  height: 10rem;
 }
 
 header h1 {
@@ -170,7 +170,7 @@ header p.slogan {
 header p.anytime {
   color: var(--color-yellow);
   font-weight: bolder;
-  font-size: 3.4rem;
+  font-size: 2.8rem;
   padding: 2rem 0;
 }
 
@@ -292,14 +292,14 @@ header nav {
 
 #contact input:focus,
 #contact textarea:focus {
-  border-bottom: var(--color-green) solid .2rem;
-  border: var(--color-green) solid .2rem;
+  border-bottom: var(--color-yellow) solid .2rem;
+  border: var(--color-yellow) solid .2rem;
 }
 
 #contact input:active,
 #contact textarea:active {
-  border-bottom: var(--color-green) solid .2rem;
-  border: var(--color-green) solid .2rem;
+  border-bottom: var(--color-yellow) solid .2rem;
+  border: var(--color-yellow) solid .2rem;
 }
 
 #contact textarea {
@@ -308,9 +308,9 @@ header nav {
 }
 
 #contact input[type="submit"] {
-  background-color: var(--color-green);
+  background-color: var(--color-yellow);
   border: 0rem solid var(--color-white);
-  border-radius: 1rem;
+  border-radius: .4rem;
   box-sizing: border-box;
   color: #0d172a;
   cursor: pointer;
@@ -337,12 +337,12 @@ header nav {
 
 #contact input[type="submit"]:focus {
   border-bottom: none;
-  background-color: var(--color-yellow);
+  background-color: var(--color-green);
 }
 
 #contact input[type="submit"]:active {
   border-bottom: none;
-  background-color: var(--color-yellow);
+  background-color: var(--color-green);
 }
 
 @media (min-width: 768px) {
@@ -408,4 +408,5 @@ footer i {
 footer p.copyright,
 footer p.copyright a {
   padding: 2rem;
+  text-align: center;
 }
