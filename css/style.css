@@ -57,6 +57,7 @@ a:hover {
   height: 8rem;
   background-color: var(--color-black0);
   border-top: var(--color-yellow) solid .2rem;
+  z-index: 2;
 }
 
 .call-btn i {
@@ -86,6 +87,12 @@ a:hover {
   color: var(--color-black);
   width: 100%;
   height: 100%;
+}
+
+.call-btn p {
+  width: 0;
+  height: 0;
+  font-size: 0;
 }
 
 /*------------------------------------*\
@@ -131,7 +138,7 @@ header .header-logo-title {
 
 header img.header-logo {
   width: 12rem;
-  height: auto;
+  height: 14rem;
 }
 
 header h1 {
@@ -174,6 +181,7 @@ header a.go-down i {
 }
 
 header a.go-down svg {
+  margin-top: 1.2rem;
   animation: yourAnimation 1s ease 0s infinite normal none;
 }
 
@@ -254,10 +262,11 @@ header nav {
   margin: 1rem 0;
 }
 
-#contact label{
+#contact label {
   font-weight: bolder;
-line-height: 3.2rem;
+  line-height: 3.2rem;
 }
+
 #contact input,
 #contact textarea {
   padding: 0 1rem;
@@ -308,6 +317,7 @@ line-height: 3.2rem;
   transition: all .1s cubic-bezier(.4, 0, .2, 1);
   box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
   user-select: none;
+  -ms-user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
 }
@@ -351,7 +361,7 @@ footer {
 footer img.footer-logo {
   padding: 0 0 1rem;
   width: 8rem;
-  height: auto;
+  height: 9rem;
 }
 
 footer section {

@@ -1,7 +1,7 @@
 # gpss
 
 Site pour GPSS - Guyane
-
+Enlever le cache avec js
 ## Gestion du formulaire
 
 https://www.javascripttutorial.net/javascript-dom/javascript-form/
