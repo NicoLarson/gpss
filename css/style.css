@@ -10,6 +10,11 @@
   --straw: #D5D167;
 }
 
+main{
+  transition: background-color 0.5s ease-in-out;
+}
+
+
 /*------------------------------------*\
     BASE
 \*------------------------------------*/
@@ -46,7 +51,7 @@ input {
 
 section {
   padding: 4rem 2rem;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 a:active,
@@ -244,7 +249,7 @@ header nav {
 \*------------------------------------*/
 
 #contact {
-  background-color: var(--color-white);
+  /* background-color: var(--color-white); */
   padding: 2rem 1rem 4rem;
 }
 
