@@ -28,7 +28,7 @@ h1 {
 
 h2 {
   font-size: 3.2rem;
-  padding: 1rem 0;
+  padding: 1rem 0 2rem;
   line-height: 3rem;
 
 }
@@ -37,7 +37,6 @@ h3 {
   font-size: 2.4rem;
   line-height: 2.8rem;
   padding: 1rem 0;
-
 }
 
 p,
@@ -51,7 +50,6 @@ input {
 
 section {
   padding: 4rem 2rem;
-  /* background-color: #fff; */
 }
 
 a:active,
@@ -157,15 +155,16 @@ header div.header-text-container {
 
 header p.header-text {
   text-align: center;
-  }
+}
 
-header p.info{
+header p.info {
   font-size: 3.2rem;
   line-height: 3.6rem;
   text-transform: uppercase;
   font-weight: bolder;
   padding: 2rem 0;
 }
+
 header p.estimate a {
   background-color: var(--color-red);
   color: #ffffff;
@@ -183,7 +182,7 @@ header p.anytime {
   font-size: 3.2rem;
   font-weight: bolder;
   color: var(--color-yellow);
-padding: 2rem 0;
+  padding: 2rem 0;
 }
 
 header p.slogan {
@@ -194,17 +193,133 @@ header p.slogan {
 }
 
 /*------------------------------------*\
-  #SERVICE
+  #SERVICES
 \*------------------------------------*/
+#services {}
 
 #services ul li {
   font-weight: bolder;
   line-height: 3rem;
 }
 
+#services div.services-container {
+  margin: 0 auto;
+}
+
+#services div.services-container section.mySlides {
+  max-width: 100%;
+  min-height: 90vh;
+}
+
+#services div.services-container section.mySlides:nth-child(1) {
+  background: url("../assets/img/2-\ carré\ Ronde\ de\ surveillance.jpeg") no-repeat center center fixed;
+  background-color: green;
+}
+
+#services div.services-container section.mySlides:nth-child(2) {
+  background: url("../assets/img/2-\ carré\ Sécurité\ incendie.jpeg") no-repeat center center;
+  background-color: green;
+
+}
+
+#services div.services-container section.mySlides:nth-child(3) {
+  background: url("../assets/img/2-\ carré\ Intervention\ sur\ alarme.webp") no-repeat center center;
+  background-color: green;
+
+}
+
+#services div.services-container section.mySlides img {
+  width: 100%;
+  height: 100%;
+}
+
+#services h3 {
+  font-size: 3rem;
+  line-height: 3.2rem;
+  text-transform: uppercase;
+
+}
+
+#services div.services-container section.mySlides li {
+  font-size: 2rem;
+}
+
+#services div.services-container section.mySlides h3,
+#services div.services-container section.mySlides li {
+  color: var(--color-white);
+}
+
 .fa-check {
   color: var(--color-red);
 }
+
+.slideshow-container {
+  max-width: 100%;
+  min-height: 80vh;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  color: var(--color-black);
+  font-weight: bold;
+  font-size: 2rem;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+
 
 /*------------------------------------*\
   #A PROPOS

@@ -78,7 +78,7 @@
 
     header p.estimate a {
         font-size: 3.2rem;
-        
+
     }
 
     header p.anytime {
@@ -146,19 +146,6 @@
     SERVICES
 \*------------------------------------*/
 
-
-    #services {
-        display: block;
-        padding: 12rem 0 20rem 8rem;
-    }
-
-    #services img {
-        display: inline-block;
-        width: 80rem;
-        position: absolute;
-        right: -23rem;
-        top: 80rem;
-    }
 
     /*------------------------------------*\
     STAFF

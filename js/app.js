@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //     }
     // });
 
-
+    //* NAV BAR
     // When the user scrolls the page, execute myFunction
     window.onscroll = function () { myFunction() };
 
@@ -52,4 +52,42 @@ document.addEventListener('DOMContentLoaded', () => {
             navbar.classList.remove("sticky");
         }
     }
+
+    //* CAROUSEL
+    var slideIndex = 1;
+    let slides = document.querySelectorAll("section.mySlides");
+    let dots = document.querySelectorAll("span.dot");
+    let prev = document.querySelector("a.prev");
+    let next = document.querySelector("a.next");
+
+    let nexSlide = () => {
+        slideIndex++
+        showSlides(slideIndex);
+    }
+    next.addEventListener("click", () => {
+        slideIndex++
+        showSlides(slideIndex);
+    });
+
+    prev.addEventListener("click", () => {
+        slideIndex--
+        showSlides(slideIndex);
+    });
+
+    let showSlides = (n) => {
+        let i;
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+
+    showSlides(slideIndex);
+    
 })
