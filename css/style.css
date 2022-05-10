@@ -156,17 +156,26 @@ header div.header-text-container {
 }
 
 header p.header-text {
-  font-size: 2rem;
   text-align: center;
-  padding: .8rem 0;
-  text-transform: uppercase;
-  font-weight: bolder;
-}
+  }
 
-header p.estimate {
+header p.info{
+  font-size: 3.2rem;
+  line-height: 3.6rem;
   text-transform: uppercase;
   font-weight: bolder;
-  color: var(--color-red);
+  padding: 2rem 0;
+}
+header p.estimate a {
+  background-color: var(--color-red);
+  color: #ffffff;
+  padding: .8rem 1.4rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  margin: 0;
+  max-width: 100%;
+  border-radius: 5px;
 
 }
 
@@ -174,11 +183,12 @@ header p.anytime {
   font-size: 3.2rem;
   font-weight: bolder;
   color: var(--color-yellow);
+padding: 2rem 0;
 }
 
 header p.slogan {
   font-size: 2rem;
-  text-transform: uppercase;
+  text-transform: none;
   font-weight: bolder;
 
 }
