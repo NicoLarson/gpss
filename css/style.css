@@ -10,7 +10,7 @@
   --straw: #D5D167;
 }
 
-main{
+main {
   transition: background-color 0.5s ease-in-out;
 }
 
@@ -114,113 +114,73 @@ a:hover {
   #HEADER
 \*------------------------------------*/
 header {
+  background: url("../assets/img/header-bg.jpg") no-repeat center center fixed;
+  color: var(--color-white);
+  height: calc(100vh - 8rem);
+}
+
+header div.header-logo-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222111dd;
+  padding: 1rem;
+}
+
+header div.header-logo-title h1 {
+  font-size: 2.4rem;
+  color: var(--color-white);
+  padding: 0 1rem;
+}
+
+header div.header-logo-title h1 span {
+  font-family: 'Merriweather', serif;
+  color: var(--color-yellow)
+}
+
+header .header-logo {
+  width: 6rem;
+  height: 7rem;
+}
+
+header div.header-text-container {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  /* background-color: #222; */
-  color: var(--color-white);
-  min-height: 100vh;
+  background-color: #222111dd;
+  padding: 1rem;
+  position: absolute;
+  width: 100%;
+  bottom: 8rem;
 }
 
-header>div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 100%;
-  padding: 1rem 1rem 8rem;
-}
-
-header #background-video {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-}
-
-header .header-logo-title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  padding: 2rem 1rem;
-  /* position: absolute;
-  top: 0; */
-}
-
-header img.header-logo {
-  width: 8rem;
-  height: 10rem;
-}
-
-header h1 {
+header p.header-text {
+  font-size: 2rem;
   text-align: center;
-  font-size: 3.2rem;
-}
-
-header h1 span {
-  font-family: 'Merriweather', serif;
-  color: var(--color-yellow);
-}
-
-
-header p.slogan {
-  font-size: 2.4rem;
+  padding: .8rem 0;
   text-transform: uppercase;
-  text-align: center;
-  line-height: 3rem;
-  /* font-weight: bolder; */
+  font-weight: bolder;
+}
+
+header p.estimate {
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: var(--color-red);
 
 }
 
 header p.anytime {
-  color: var(--color-yellow);
-  font-weight: bolder;
-  font-size: 2.8rem;
-  padding: 2rem 0;
-}
-
-header a.go-down {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: var(--color-white);
-  font-size: 2rem;
-}
-
-header a.go-down i {
   font-size: 3.2rem;
-  font-weight: lighter;
+  font-weight: bolder;
+  color: var(--color-yellow);
 }
 
-header a.go-down svg {
-  margin-top: 1.2rem;
-  animation: yourAnimation 1s ease 0s infinite normal none;
-}
+header p.slogan {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bolder;
 
-@keyframes yourAnimation {
-  0.0% {
-    transform: translate(0, 0rem);
-  }
-
-  11.0% {
-    transform: translate(0, .8rem);
-  }
-
-  49.7% {
-    transform: translate(0, 1rem);
-  }
-}
-
-/*------------------------------------*\
-  #NAVBAR
-\*------------------------------------*/
-header nav {
-  display: none;
 }
 
 /*------------------------------------*\
