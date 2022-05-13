@@ -225,8 +225,7 @@ header p.slogan {
 }
 
 #services div.services-container section.mySlides:nth-child(2) {
-  background: url("../assets/img/2-\ carré\ Sécurité\ incendie.jpeg") no-repeat
-    center center;
+  background: url("../assets/img/2-\ carré\ Sécurité\ incendie.jpeg")scroll center ;
 }
 
 #services div.services-container section.mySlides:nth-child(3) {
