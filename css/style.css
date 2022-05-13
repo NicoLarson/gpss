@@ -469,38 +469,40 @@ footer {
   padding: 8rem 0;
   background-color: var(--color-black0);
 }
-footer div.footer-logo-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+footer i.fa-solid {
+  margin-right: 1rem;
+  font-size: 1.6rem;
 }
 
-footer img.footer-logo {
-  padding: 0 0 1rem;
+footer div.footer-logo-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  margin: 0 auto;
+  max-width: 92vw;
+}
+
+footer div.footer-logo-container img.footer-logo {
   width: 8rem;
   height: 9rem;
 }
-footer div.footer-logo-container p {
-  display: block;
-  border-left: solid .2rem var(--color-white);
-  height: 100%;
+
+footer div.footer-logo-container div.vertical-bar {
+  background-color: #fff;
+  height: 12rem;
+  width: 0.2rem;
+  margin: 0 1rem;
 }
 
-footer section {
-  background-color: var(--color-black0);
+footer div.footer-logo-container p {
+  font-size: 2rem;
+  font-weight: bold;
   color: var(--color-white);
 }
-
-footer h2 {
-  font-size: 2.4rem;
+footer div.footer-logo-container p span {
+  font-family: "Merriweather", serif;
   color: var(--color-yellow);
-}
-
-footer h3 {
-  font-size: 2rem;
-  color: var(--color-yellow);
-  line-height: 3rem;
-  padding: 1rem 0 0;
 }
 
 footer p {
@@ -516,6 +518,7 @@ footer a {
 footer i {
   color: var(--color-white);
 }
+
 footer a.fb-btn .fa-facebook-f {
   border: 0.1rem solid var(--color-white);
   padding: 1.8rem 2rem;
@@ -525,8 +528,13 @@ footer a.fb-btn p {
   font-size: 0;
 }
 
-footer p.copyright,
-footer p.copyright a {
+footer p.copyright {
   padding: 2rem;
   text-align: center;
+  border-top: 0.1rem solid var(--color-white);
+  border-bottom: 0.1rem solid var(--color-white);
+}
+
+footer p.copyright a {
+  font-size: 1.2rem;
 }
