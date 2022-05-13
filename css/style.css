@@ -4,7 +4,7 @@
   --color-white: #ffffff;
   --color-black0: #000;
   --color-black: #222111;
-  --color-grey: #808080;
+  --color-grey: #f0f0f0;
   --color-yellow: #eae670;
   --color-yellow0: #ffff00;
   --straw: #d5d167;
@@ -12,6 +12,7 @@
 
 main {
   transition: background-color 0.5s ease-in-out;
+  background-color: var(--color-grey);
 }
 
 /*------------------------------------*\
@@ -20,7 +21,17 @@ main {
 .desktop-only {
   display: none;
 }
-
+.fa-check {
+  margin-right: 0.8rem;
+}
+.card {
+  padding: 2rem;
+  margin: 0 0 4rem;
+  background-color: #fafafa;
+  border-radius: 0.4rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
 h1 {
   font-size: 4rem;
 }
@@ -126,6 +137,7 @@ header div.header-logo-title h1 {
   font-size: 2.4rem;
   color: var(--color-white);
   padding: 0 1rem;
+  text-align: center;
 }
 
 header div.header-logo-title h1 span {
@@ -144,7 +156,7 @@ header div.header-text-container {
   justify-content: space-around;
   align-items: center;
   background-color: #222111dd;
-  padding: 1rem;
+  padding: 4rem 1rem;
   position: absolute;
   width: 100%;
   bottom: 8rem;
@@ -159,7 +171,7 @@ header p.info {
   line-height: 3.6rem;
   text-transform: uppercase;
   font-weight: bolder;
-  padding: 2rem 0;
+  padding: 0 0 2rem;
 }
 
 header p.estimate a {
@@ -190,8 +202,6 @@ header p.slogan {
 /*------------------------------------*\
   #SERVICES
 \*------------------------------------*/
-#services {
-}
 
 #services ul li {
   font-weight: bolder;
@@ -203,6 +213,8 @@ header p.slogan {
 }
 
 #services div.services-container section.mySlides {
+  border-radius: 0.4rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   max-width: 100%;
   min-height: 60rem;
 }
@@ -248,7 +260,7 @@ header p.slogan {
 
 .slideshow-container {
   max-width: 100%;
-  min-height: 80vh;
+  height: 60rem;
   position: relative;
   margin: auto;
 }
@@ -261,18 +273,18 @@ header p.slogan {
 .next {
   display: flex;
   align-items: center;
-  height: 25%;
-  width: 50%;
+  height: 20rem;
+  width: 40%;
   cursor: pointer;
   position: absolute;
   bottom: 0;
-  color: #222;
+  color: rgba(255, 255, 255, 0.541);
   font-weight: bold;
   font-size: 8rem;
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  padding: 1rem;
+  padding: 1rem 2rem;
 }
 
 .next {
@@ -293,8 +305,8 @@ header p.slogan {
 
 .dot {
   cursor: pointer;
-  height: .8rem;
-  width: .8rem;
+  height: 0.8rem;
+  width: 0.8rem;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
@@ -457,11 +469,21 @@ footer {
   padding: 8rem 0;
   background-color: var(--color-black0);
 }
+footer div.footer-logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 footer img.footer-logo {
   padding: 0 0 1rem;
   width: 8rem;
   height: 9rem;
+}
+footer div.footer-logo-container p {
+  display: block;
+  border-left: solid .2rem var(--color-white);
+  height: 100%;
 }
 
 footer section {
@@ -494,7 +516,10 @@ footer a {
 footer i {
   color: var(--color-white);
 }
-
+footer a.fb-btn .fa-facebook-f {
+  border: 0.1rem solid var(--color-white);
+  padding: 1.8rem 2rem;
+}
 footer a.fb-btn p {
   display: inline;
   font-size: 0;
