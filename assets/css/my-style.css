@@ -44,7 +44,7 @@ header div.header-logo-title {
 }
 
 header div.header-logo-title p {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: var(--color-white);
   padding: 0 1rem;
   text-align: center;
@@ -67,6 +67,11 @@ header a.btn-circle.btn-transparent.btn{
 div.hero-section p.anytime {
   color: var(--color-yellow);
   font-weight: bolder;
+  font-size: 1.8rem;
+}
+div.hero-section p:nth-child(3) {
+  font-size: 1.4rem;
+  color: var(--color-white);
 }
 div.hero-section a.btn-estimate {
   background-color: var(--color-red);
