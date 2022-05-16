@@ -83,7 +83,16 @@ div.hero-section a.btn-estimate {
 div.section-service ul.service-item li {
   text-align: left;
 }
-/* NOS ENGAGEMENTS */
+/* ENGAGEMENTS */
+div.section-engagements p{
+  text-align: justify;
+}
+
+div.section-engagements p.last-line{
+  text-align: center;
+}
+
+/* ABOUT */
 div.section-team p {
   text-align: justify;
 }
