@@ -1,0 +1,114 @@
+:root {
+  --color-green: #4cb267;
+  --color-red: #ee4132;
+  --color-white: #ffffff;
+  --color-black0: #000;
+  --color-black: #222111;
+  --color-grey: #f0f0f0;
+  --color-yellow: #eae670;
+  --color-yellow0: #ffff00;
+  --straw: #d5d167;
+}
+
+header {
+  background-color: var(--color-black);
+}
+header i.zmdi-menu {
+  display: none;
+}
+
+header div.logo {
+  width: 100%;
+}
+
+header div.header-logo-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  font-weight: bolder;
+}
+
+header div.header-logo-title p {
+  font-size: 1rem;
+  color: var(--color-white);
+  padding: 0 1rem;
+  text-align: center;
+}
+
+header div.header-logo-title p span {
+  font-family: "Merriweather", serif;
+  color: var(--color-yellow);
+}
+div.hero-section p.anytime {
+  color: var(--color-yellow);
+  font-weight: bolder;
+}
+div.hero-section a.btn-estimate {
+  background-color: var(--color-red);
+  border: 0;
+  font-weight: bolder;
+}
+
+div.section-service ul.service-item li {
+  text-align: left;
+}
+footer i.fa-solid {
+  margin-right: 0.4rem;
+}
+
+footer div.footer-widget.footer-style-1.space-left h5.ft-title,
+footer div.footer-widget.footer-style-1.space-left div.content p,
+footer div.footer-widget.footer-style-1.space-left div.content a {
+  color: var(--color-white);
+}
+footer div.footer-widget.footer-style-1.space-left h5.ft-title span{
+  color: var(--color-yellow);
+}
+footer div {
+  background-color: var(--color-black0);
+  color: var(--color-white);
+}
+footer a.fb-btn .fa-facebook-f {
+  border: 0.1rem solid var(--color-white);
+  padding: .8rem .8rem;
+}
+
+footer div.footer-social a.fb-btn > p.fb-btn-alt {
+  display: inline;
+  font-size: 0;
+}
+
+footer div.footer-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: bolder;
+}
+footer div.footer-logo-container img {
+  width: 6rem;
+}
+
+footer div.footer-logo-container div.vertical-bar {
+  width: 0.1rem;
+  height: 6rem;
+  background-color: var(--color-white);
+  margin: 0 1rem;
+}
+footer div.footer-logo-container p span {
+  font-family: "Merriweather", serif;
+  color: var(--color-yellow);
+}
+
+footer div.copyright,
+footer div.copyright-left.content.text-center p.copyright {
+  background-color: var(--color-black0);
+  color: var(--color-white);
+}
+footer div.copyright-left.content.text-center {
+  border-top: 1px solid var(--color-white);
+}
+footer div.copyright-left.content.text-center p.copyright {
+  padding-top: 1rem;
+}
