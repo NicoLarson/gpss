@@ -11,7 +11,7 @@
 }
 
 header {
-  background-color: var(--color-black);
+  background-color: var(--color-black0);
 }
 header i.zmdi-menu {
   display: none;
@@ -53,6 +53,10 @@ div.hero-section a.btn-estimate {
 div.section-service ul.service-item li {
   text-align: left;
 }
+
+div.section-team p{
+text-align: justify;
+}
 footer i.fa-solid {
   margin-right: 0.4rem;
 }
@@ -69,14 +73,10 @@ footer div {
   background-color: var(--color-black0);
   color: var(--color-white);
 }
-footer a.fb-btn .fa-facebook-f {
-  border: 0.1rem solid var(--color-white);
-  padding: .8rem .8rem;
-}
 
 footer div.footer-social a.fb-btn > p.fb-btn-alt {
   display: inline;
-  font-size: 0;
+  margin-left: .2rem;
 }
 
 footer div.footer-logo-container {
