@@ -9,12 +9,15 @@
   --color-yellow0: #ffff00;
   --straw: #d5d167;
 }
+html {
+  scroll-behavior: smooth;
+}
 
-a#scrollUp{
+a#scrollUp {
   background-color: var(--color-yellow);
   border-color: var(--color-green);
 }
-a#scrollUp i{
+a#scrollUp i {
   color: var(--color-black);
 }
 div.section-title h2::before {
@@ -56,10 +59,10 @@ header div.header-logo-title p span {
 }
 
 /* HEADER NAV */
-header nav.main-menu.main-menu a{
+header nav.main-menu.main-menu a {
   color: var(--color-white);
 }
-header a.btn-circle.btn-transparent.btn{
+header a.btn-circle.btn-transparent.btn {
   background-color: var(--color-green);
   border: 0;
 }
@@ -84,11 +87,11 @@ div.section-service ul.service-item li {
   text-align: left;
 }
 /* ENGAGEMENTS */
-div.section-engagements p{
+div.section-engagements p {
   text-align: justify;
 }
 
-div.section-engagements p.last-line{
+div.section-engagements p.last-line {
   text-align: center;
 }
 
@@ -96,16 +99,28 @@ div.section-engagements p.last-line{
 div.section-team p {
   text-align: justify;
 }
+ul.about-list {
+  display: block;
+  max-width: fit-content;
+  margin: 0 auto;
+}
+ul.about-list li {
+  display: block;
+  text-align: left;
+}
+ul.about-list li::before {
+  content: "- ";
+}
 
 /* DEMANDE DE DEVIS */
 div.reapir-choose-us div.contact_form_container {
   background-color: var(--color-black0);
 }
-div.reapir-choose-us div.contact_form_container div.ct-title-2 h2{
+div.reapir-choose-us div.contact_form_container div.ct-title-2 h2 {
   color: var(--color-white);
 }
 
-div.reapir-choose-us div.contact_form_container input[type="submit"]{
+div.reapir-choose-us div.contact_form_container input[type="submit"] {
   background-color: var(--color-yellow);
   color: var(--color-black);
   font-weight: bolder;
@@ -157,18 +172,34 @@ footer div.footer-logo-container p span {
   color: var(--color-yellow);
 }
 
+/* FOOTER LIENS RAPIDES */
+footer
+  div.footer-widget.footer-style-1.space-left
+  div.content
+  ul.ft-menu
+  li
+  a:active,
+footer
+  div.footer-widget.footer-style-1.space-left
+  div.content
+  ul.ft-menu
+  li
+  a:focus,
+footer
+  div.footer-widget.footer-style-1.space-left
+  div.content
+  ul.ft-menu
+  li
+  a:hover {
+  color: var(--color-green);
+}
+
 /* FOOTER COPYRIGHT */
-footer div.copyright{
+footer div.copyright {
   margin: 0 auto;
 }
 footer div.copyright,
 footer div.copyright-left.content.text-center p.copyright {
   background-color: var(--color-black0);
   color: var(--color-white);
-}
-footer div.copyright-left.content.text-center {
-  border-top: 1px solid var(--color-white);
-}
-footer div.copyright-left.content.text-center p.copyright {
-  padding-top: 1rem;
 }
