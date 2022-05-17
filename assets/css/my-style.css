@@ -24,6 +24,14 @@ div.section-title h2::before {
   background-color: var(--color-yellow);
 }
 
+button.clnService-next.slick-arrow,
+button.clnService-prev.slick-arrow {
+  background-color: rgba(255, 255, 255, 0);
+}
+button.clnService-next.slick-arrow i,
+button.clnService-prev.slick-arrow i {
+  color: #222;
+}
 /* HEADER */
 header {
   background-color: var(--color-black0);
@@ -83,6 +91,9 @@ div.hero-section a.btn-estimate {
 }
 
 /* NOS SERVICES */
+i.fa-solid.fa-check{
+  color: var(--color-green);
+}
 div.section-service ul.service-item li {
   text-align: left;
 }
@@ -121,8 +132,8 @@ div.reapir-choose-us div.contact_form_container div.ct-title-2 h2 {
 }
 
 div.reapir-choose-us div.contact_form_container input[type="submit"] {
-  background-color: var(--color-yellow);
-  color: var(--color-black);
+  background-color: var(--color-green);
+  color: var(--color-white);
   font-weight: bolder;
 }
 /* FOOTER */
