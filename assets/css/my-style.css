@@ -76,10 +76,14 @@ header a.btn-circle.btn-transparent.btn {
   font-weight: bolder;
 }
 /* HERO SECTION */
+div.hero-section h1{
+  line-height: 4rem;
+}
 div.hero-section p.anytime {
   color: var(--color-yellow);
   font-weight: bolder;
   font-size: 1.8rem;
+  padding: 1rem 0;
 }
 div.hero-section p:nth-child(3) {
   font-size: 1.4rem;
@@ -261,7 +265,6 @@ footer a.mention-legal {
 main.legacy h3 {
   margin-top: 4rem;
   text-align: left;
-
 }
 
 main.legacy li {
@@ -269,6 +272,17 @@ main.legacy li {
 }
 
 main.legacy a {
-text-decoration: underline;
+  text-decoration: underline;
 }
 
+@media screen and (min-width: 480px) {
+  main.legacy h3,
+  main.legacy ul,
+  main.legacy p {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  main.legacy h3{
+    margin-top: 2rem;
+  }
+}
