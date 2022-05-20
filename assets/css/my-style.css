@@ -73,6 +73,7 @@ header nav.main-menu.main-menu a {
 header a.btn-circle.btn-transparent.btn {
   background-color: var(--color-green);
   border: 0;
+  font-weight: bolder;
 }
 /* HERO SECTION */
 div.hero-section p.anytime {
@@ -129,6 +130,20 @@ div.reapir-choose-us div.contact_form_container {
 }
 div.reapir-choose-us div.contact_form_container div.ct-title-2 h2 {
   color: var(--color-white);
+}
+div.reapir-choose-us div.contact_form_container div.confidentiality{
+display: flex;
+  align-items: flex-start;
+}
+div.reapir-choose-us div.contact_form_container div.confidentiality input{
+  height: 2rem;
+  width: 2rem;
+  padding: 0;
+  margin: 0 .4rem;
+}
+div.reapir-choose-us div.contact_form_container div.confidentiality label{
+
+  margin: .2rem 0 0 0;
 }
 
 div.reapir-choose-us div.contact_form_container input[type="submit"] {
@@ -213,4 +228,8 @@ footer div.copyright,
 footer div.copyright-left.content.text-center p.copyright {
   background-color: var(--color-black0);
   color: var(--color-white);
+}
+
+footer a.mention-legal:active,footer a.mention-legal:hover, footer a.mention-legal:focus {
+  color: var(--color-green);
 }
