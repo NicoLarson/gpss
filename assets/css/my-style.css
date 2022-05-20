@@ -92,7 +92,7 @@ div.hero-section a.btn-estimate {
 }
 
 /* NOS SERVICES */
-i.fa-solid.fa-check{
+i.fa-solid.fa-check {
   color: var(--color-green);
 }
 div.section-service ul.service-item li {
@@ -131,26 +131,41 @@ div.reapir-choose-us div.contact_form_container {
 div.reapir-choose-us div.contact_form_container div.ct-title-2 h2 {
   color: var(--color-white);
 }
-div.reapir-choose-us div.contact_form_container div.confidentiality{
-display: flex;
+div.reapir-choose-us div.contact_form_container div.confidentiality {
+  display: flex;
   align-items: flex-start;
 }
-div.reapir-choose-us div.contact_form_container div.confidentiality input{
+div.reapir-choose-us div.contact_form_container div.confidentiality input {
   height: 2rem;
   width: 2rem;
   padding: 0;
-  margin: 0 .4rem;
+  margin: 0 0.4rem;
 }
-div.reapir-choose-us div.contact_form_container div.confidentiality label{
-
-  margin: .2rem 0 0 0;
+div.reapir-choose-us div.contact_form_container div.confidentiality label {
+  margin: 0.2rem 0 0 0;
+  color: #fafafa;
 }
-
+div.reapir-choose-us div.contact_form_container div.confidentiality label a {
+  text-decoration: underline;
+}
 div.reapir-choose-us div.contact_form_container input[type="submit"] {
   background-color: var(--color-green);
   color: var(--color-white);
   font-weight: bolder;
 }
+
+@media screen and (min-width: 480px) {
+  div.reapir-choose-us div.contact_form_container div.confidentiality input {
+    height: 1rem;
+    width: 1rem;
+    margin-top: 0.2rem;
+  }
+  div.reapir-choose-us div.contact_form_container div.confidentiality label {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 /* FOOTER */
 footer i.fa-solid {
   margin-right: 0.4rem;
@@ -230,6 +245,30 @@ footer div.copyright-left.content.text-center p.copyright {
   color: var(--color-white);
 }
 
-footer a.mention-legal:active,footer a.mention-legal:hover, footer a.mention-legal:focus {
+footer a.mention-legal:active,
+footer a.mention-legal:hover,
+footer a.mention-legal:focus {
   color: var(--color-green);
 }
+footer a.mention-legal {
+  text-decoration: underline;
+}
+
+/*  */
+/* MENTION LEGAL */
+/*  */
+
+main.legacy h3 {
+  margin-top: 4rem;
+  text-align: left;
+
+}
+
+main.legacy li {
+  text-align: left;
+}
+
+main.legacy a {
+text-decoration: underline;
+}
+
