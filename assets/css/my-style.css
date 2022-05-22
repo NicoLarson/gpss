@@ -28,6 +28,7 @@ button.clnService-next.slick-arrow,
 button.clnService-prev.slick-arrow {
   background-color: rgba(255, 255, 255, 0);
 }
+
 button.clnService-next.slick-arrow i,
 button.clnService-prev.slick-arrow i {
   color: #222;
@@ -76,9 +77,6 @@ header a.btn-circle.btn-transparent.btn {
   font-weight: bolder;
 }
 /* HERO SECTION */
-div.hero-section h1 {
-  line-height: 4rem;
-}
 div.hero-section p.anytime {
   color: var(--color-yellow);
   font-weight: bolder;
@@ -94,7 +92,6 @@ div.hero-section a.btn-estimate {
   border: 0;
   font-weight: bolder;
 }
-
 /* NOS SERVICES */
 i.fa-solid.fa-check {
   color: var(--color-green);
@@ -102,6 +99,7 @@ i.fa-solid.fa-check {
 div.section-service ul.service-item li {
   text-align: left;
 }
+
 /* ENGAGEMENTS */
 div.section-engagements p {
   text-align: justify;
@@ -220,19 +218,16 @@ footer div.footer-logo-container div.vertical-bar {
 footer div.footer-logo-container p span {
   font-family: "Merriweather", serif;
   color: var(--color-yellow);
-
-}  
+}
 @media screen and (min-width: 480px) {
   footer div.footer-logo-container {
     width: 20rem;
     font-size: 1rem;
   }
   footer div.footer-logo-container p span {
-  font-size: 1.4rem;
-
+    font-size: 1.4rem;
   }
 }
-
 
 /* FOOTER LIENS RAPIDES */
 footer
