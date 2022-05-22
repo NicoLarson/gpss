@@ -9,7 +9,7 @@
   --color-yellow0: #ffff00;
   --straw: #d5d167;
 }
-html {
+* {
   scroll-behavior: smooth;
 }
 
