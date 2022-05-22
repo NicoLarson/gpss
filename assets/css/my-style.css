@@ -76,7 +76,7 @@ header a.btn-circle.btn-transparent.btn {
   font-weight: bolder;
 }
 /* HERO SECTION */
-div.hero-section h1{
+div.hero-section h1 {
   line-height: 4rem;
 }
 div.hero-section p.anytime {
@@ -109,6 +109,11 @@ div.section-engagements p {
 
 div.section-engagements p.last-line {
   text-align: center;
+}
+
+div.section-engagements
+  div.service.text-center.service-2.padding-none.cleaning-service.mb-30 {
+  height: 42rem;
 }
 
 /* ABOUT */
@@ -203,19 +208,31 @@ footer div.footer-logo-container {
   font-weight: bolder;
 }
 footer div.footer-logo-container img {
-  width: 10em;
+  width: 10rem;
 }
 
 footer div.footer-logo-container div.vertical-bar {
-  width: 0.1rem;
-  height: 6rem;
+  width: 0.2rem;
+  height: 7rem;
   background-color: var(--color-white);
   margin: 0 1rem;
 }
 footer div.footer-logo-container p span {
   font-family: "Merriweather", serif;
   color: var(--color-yellow);
+
+}  
+@media screen and (min-width: 480px) {
+  footer div.footer-logo-container {
+    width: 20rem;
+    font-size: 1rem;
+  }
+  footer div.footer-logo-container p span {
+  font-size: 1.4rem;
+
+  }
 }
+
 
 /* FOOTER LIENS RAPIDES */
 footer
@@ -282,7 +299,7 @@ main.legacy a {
     max-width: 60%;
     margin: 0 auto;
   }
-  main.legacy h3{
+  main.legacy h3 {
     margin-top: 2rem;
   }
 }

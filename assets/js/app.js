@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btnSubmit.addEventListener('click', (e) => {
         if (checkboxConfidentiality.checked) {
-            alert('Merci, votre message a bien été envoyé !');
         } else {
             btnSubmit.disabled = true;
-            btnSubmit.style.backgroundColor = 'red';}
+            btnSubmit.style.backgroundColor = 'red';
+        }
     });
 
 });
