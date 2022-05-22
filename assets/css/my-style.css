@@ -119,18 +119,19 @@ div.section-team p {
   text-align: justify;
 }
 ul.about-list {
+  max-width: 470px;
   display: block;
-  max-width: fit-content;
   margin: 0 auto;
+  padding: 0;
 }
 ul.about-list li {
   display: block;
   text-align: left;
 }
+
 ul.about-list li::before {
   content: "- ";
 }
-
 /* DEMANDE DE DEVIS */
 div.reapir-choose-us div.contact_form_container {
   background-color: var(--color-black0);
@@ -171,6 +172,23 @@ div.reapir-choose-us div.contact_form_container input[type="submit"] {
     padding: 0;
     margin: 0;
   }
+}
+
+/* JOIN US */
+
+div#join-us {
+  padding: 0;
+}
+
+div#join-us ul {
+  max-width: 470px;
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+}
+div#join-us ul li {
+  display: block;
+  text-align: left;
 }
 
 /* FOOTER */
