@@ -93,10 +93,25 @@ div.hero-section a.btn-estimate {
   font-weight: bolder;
 }
 /* NOS SERVICES */
+div.service.text-center.service-2.padding-none.cleaning-service.mb-30 {
+  margin-bottom: 1rem;
+}
+div.slider-indicator {
+  display: flex;
+  justify-content: space-around;
+  width: 4rem;
+}
+
+@media screen and (min-width: 480px) {
+  div.slider-indicator {
+    display: none;
+  }
+}
+
 i.fa-solid.fa-check {
   color: var(--color-green);
 }
-div.service.text-center.service-2.padding-none.cleaning-service.mb-30{
+div.service.text-center.service-2.padding-none.cleaning-service.mb-30 {
   height: 32rem;
 }
 div.section-service ul.service-item li {
@@ -107,7 +122,9 @@ div.section-service ul.service-item li {
 div.section-engagements p {
   text-align: justify;
 }
-
+div.section-engagements ul li{
+text-align: left;  
+}
 div.section-engagements p.last-line {
   text-align: center;
 }

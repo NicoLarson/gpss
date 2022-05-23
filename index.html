@@ -10,6 +10,15 @@
         name="description" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title> GPSS - Guyane Protection Sûreté et Sécurité</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XSBG9RZM9F"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-XSBG9RZM9F');
+    </script>
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
@@ -181,6 +190,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="slider-indicator"><i class="fa-solid fa-left-long"></i> <i
+                        class="fa-solid fa-right-long"></i>
+                </div>
             </div>
         </div>
         <div id="engagements" class="section-engagements bg-gray section-pt section-pb-90">
@@ -270,6 +282,9 @@
                             </div>
                         </div>
                     </div>
+                    <div class="slider-indicator"><i class="fa-solid fa-left-long"></i> <i
+                            class="fa-solid fa-right-long"></i>
+                    </div>
                 </div>
             </div>
         </div>
@@ -283,22 +298,22 @@
                             <h2> Demande de devis</h2>
                         </div>
                         <div class="repair-service-form">
-                            <form action="https://formsubmit.co/45ec98df8441a1b5df46e6c39145fe3a" method="POST">
+                            <form action="./assets/php/mail.php" method="POST">
                                 <input type="hidden" name="_template" value="table">
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <input name="name" type="text" placeholder="Jean-Michel*" required>
+                                        <input name="con_name" type="text" placeholder="Jean-Michel*" required>
                                     </div>
 
                                     <div class="col-lg-12">
-                                        <input name="email" type="email" placeholder="jean-michel@monemail.fr*"
+                                        <input name="con_email" type="email" placeholder="jean-michel@monemail.fr*"
                                             required>
                                     </div>
                                     <div class="col-lg-12">
-                                        <input name="_subject" type="text" placeholder="Demande de devis*" required>
+                                        <input name="con_subject" type="text" placeholder="Demande de devis*" required>
                                     </div>
                                     <div class="col-lg-12">
-                                        <textarea name="message"
+                                        <textarea name="con_message"
                                             placeholder="Bonjour, je souhaite avoir un devis pour ...*"
                                             required></textarea>
                                     </div>
