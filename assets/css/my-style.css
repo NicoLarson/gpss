@@ -96,6 +96,9 @@ div.hero-section a.btn-estimate {
 i.fa-solid.fa-check {
   color: var(--color-green);
 }
+div.service.text-center.service-2.padding-none.cleaning-service.mb-30{
+  height: 32rem;
+}
 div.section-service ul.service-item li {
   text-align: left;
 }
