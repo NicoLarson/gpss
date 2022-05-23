@@ -21,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $recipient = "contact@gpss-securite.com";
 
     // Set the email subject.
-    $subject = "Formulaire de gpss-securite.com: $name - $subject";
+    $subject = "Demande de devis de $name sur Internet";
 
     // Build the email content.
     $email_content = "Vous avez reçu une demande de devis sur le site GPSS Sécurité.\nVous trouverez ci-dessous la demande et les coordonnées du prospect:\n\n";
