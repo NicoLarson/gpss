@@ -21,10 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $recipient = "contact@gpss-securite.com";
 
     // Set the email subject.
-    $subject = "Demande de devis de $name sur Internet";
+    $subject_mail = "Demande de devis de $name sur Internet";
 
     // Build the email content.
-    $email_content = "Vous avez reçu une demande de devis sur le site GPSS Sécurité.\nVous trouverez ci-dessous la demande et les coordonnées du prospect:\n\n";
+    $email_content = "Bonjour,\n\nVous avez reçu une demande de devis sur le site GPSS Sécurité.\nVous trouverez ci-dessous la demande et les coordonnées du prospect:\n\n";
     $email_content .= "Nom: $name\n";
     $email_content .= "Email: $email\n";
     $email_content .= "Objet:\n$subject\n";
@@ -34,7 +34,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_headers = "From: $name <$email>";
 
     // Send the email.
-    if (mail($recipient, $subject, $email_content, $email_headers)) {
+    if (mail($recipient, $subject_mail, $email_content, $email_headers)) {
         // Set a 200 (okay) response code.
         http_response_code(200);
         echo "<p> Merci! Votre message à été envoyé. Nous vous répondrons dans les plus brefs délais.</p> <a href=\"https://gpss-securite.com/\">Retour à l'accueil</a>";
