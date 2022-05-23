@@ -40,7 +40,7 @@
         </div>
         <div class="header-bottom-area">
             <div class="container">
-                <div class="row align-items-center flex-nowrap">
+                <div class="row align-items-center justify-content-center flex-nowrap">
                     <div class="cuscol">
                         <div class="logo">
                             <a href="index.html">
@@ -299,22 +299,23 @@
                                     <h2> Demande de devis</h2>
                                 </div>
                                 <div class="repair-service-form">
-                                    <form action="./assets/php/mail.php">
+                                        <form action="https://formsubmit.co/45ec98df8441a1b5df46e6c39145fe3a" method="POST">
+                                            <input type="hidden" name="_template" value="table">
                                         <div class="row">
                                             <div class="col-lg-12">
-                                                <input name="con_name" type="text" placeholder="Jean-Michel*" required>
+                                                <input name="name" type="text" placeholder="Jean-Michel*" required>
                                             </div>
 
                                             <div class="col-lg-12">
-                                                <input name="con_email" type="email"
+                                                <input name="email" type="email"
                                                     placeholder="jean-michel@monemail.fr*" required>
                                             </div>
                                             <div class="col-lg-12">
-                                                <input name="con_subject" type="text" placeholder="Demande de devis*"
+                                                <input name="_subject" type="text" placeholder="Demande de devis*"
                                                     required>
                                             </div>
                                             <div class="col-lg-12">
-                                                <textarea name="con_message"
+                                                <textarea name="message"
                                                     placeholder="Bonjour, je souhaite avoir un devis pour ...*"
                                                     required></textarea>
                                             </div>
@@ -359,9 +360,9 @@
                                         afin de répondre à vos inquiétudes et de vous aider à:
                                     </p>
                                     <ul class="about-list">
-                                        <li>Prévenir les risques</li>
-                                        <li>Trouver la solution de gardiennage adaptée à votre situation</li>
-                                        <li>Mettre en place la ou les techniques appropriées</li>
+                                        <li><i class="fa-solid fa-check"></i>Prévenir les risques</li>
+                                        <li><i class="fa-solid fa-check"></i>Trouver la solution de gardiennage adaptée à votre situation</li>
+                                        <li><i class="fa-solid fa-check"></i>Mettre en place la ou les techniques appropriées</li>
                                     </ul>
 
 
@@ -378,12 +379,10 @@
                                 <div class="section-title text-center">
                                     <h1 style="display: none;">GPSS</h1>
                                     <h2>Rejoignez les équipes GPSS</h2>
-                                    <h3>Travaillez et évoluez avec nous
-                                    </h3>
                                     <p>Nous recherchons régulièrement des agents de sécurité H/F pour répondre aux
                                         exigences de
-                                        nos clients. Envoyez nous votre candidature par email à
-                                        <a href="mailto:contact.gpss@gmail.com">contact.gpss@gmail.com</a> avec les
+                                        nos clients. Envoyez-nous votre candidature par email à
+                                        <a href="mailto:contact@gpss-securite.com">contact@gpss-securite.com</a> avec les
                                         pièces suivantes:
                                     </p>
                                     <ul>
@@ -425,7 +424,7 @@
                                     </div>
                                     <div class="footer-email">
                                         <i class="fa-solid fa-envelope"></i><a
-                                            href="mailto:contact.gpss@gmail.com">contact.gpss@gmail.com</a>
+                                            href="mailto:contact@gpss-securite.com">contact@gpss-securite.com</a>
                                     </div>
                                     <div class="footer-social">
                                         <a class="fb-btn" rel="noopener noreferrer"
@@ -459,11 +458,11 @@
                             <h5 class="ft-title">LIENS <span>RAPIDES</span></h5>
                             <div class="content">
                                 <ul class="ft-menu">
-                                    <li><a href="index.html#prestations">Nos prestations</a></li>
-                                    <li><a href="index.html#engagements">Nos engagements</a></li>
-                                    <li><a href="index.html#contact">Demande de devis</a></li>
-                                    <li><a href="index.html#about">A propos de nous</a></li>
-                                    <li><a href="index.html#join-us">Rejoignez nous</a></li>
+                                    <li><a href="#prestations">Nos prestations</a></li>
+                                    <li><a href="#engagements">Nos engagements</a></li>
+                                    <li><a href="#contact">Demande de devis</a></li>
+                                    <li><a href="#about">A propos de nous</a></li>
+                                    <li><a href="#join-us">Rejoignez-nous</a></li>
                                 </ul>
                             </div>
                         </div>
