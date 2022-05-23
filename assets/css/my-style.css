@@ -96,6 +96,9 @@ div.hero-section a.btn-estimate {
 i.fa-solid.fa-check {
   color: var(--color-green);
 }
+div.service.text-center.service-2.padding-none.cleaning-service.mb-30{
+  height: 32rem;
+}
 div.section-service ul.service-item li {
   text-align: left;
 }
@@ -129,9 +132,6 @@ ul.about-list li {
   text-align: left;
 }
 
-ul.about-list li::before {
-  content: "- ";
-}
 /* DEMANDE DE DEVIS */
 div.reapir-choose-us div.contact_form_container {
   background-color: var(--color-black0);
