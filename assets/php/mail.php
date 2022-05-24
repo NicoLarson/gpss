@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_content = "Bonjour,\n\nVous avez reçu une demande de devis sur le site GPSS Sécurité.\nVous trouverez ci-dessous la demande et les coordonnées du prospect:\n\n";
     $email_content .= "Nom: $name\n";
     $email_content .= "Email: $email\n";
-    $email_content .= "Objet:\n$subject\n";
+    $email_content .= "Objet: $subject\n";
     $email_content .= "Message:\n$message\n";
 
     // Build the email headers.
