@@ -1,0 +1,14 @@
+{
+  "short_name": "GPSS-Securite",
+  "name": "GPSS-Securite",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "start_url": "https://gpss-securite.com/",
+  "background_color": "#fafafa",
+  "theme_color": "#fafafa"
+}

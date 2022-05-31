@@ -62,9 +62,7 @@
 </head>
 
 <body>
-  <img src="./favicon.ico" alt="">
   <h1>Cette page n'existe pas.</h1>
-  <br>
   <p><a href="https://gpss-securite.com/">Cliquez ici pour revenir sur la page d'accueil.</a></p>
 </body>
 
